@@ -1,0 +1,54 @@
+
+title: "[Question] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Questions and answers
+
+        Ask about project functionality, documentation,
+        decisions, or development practices.
+
+        Questions do not require technical credentials
+        or prior familiarity with the project.
+
+        Please avoid including credentials, private
+        information, or sensitive security details.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What would you like to understand?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Relevant context
+      description: >
+        Describe what you are trying to accomplish
+        or what prompted the question.
+    validations:
+      required: false
+
+  - type: textarea
+    id: existing_information
+    attributes:
+      label: Information already available
+      description: >
+        Include relevant documentation, observations,
+        previous answers, or links if useful.
+    validations:
+      required: false
+
+  - type: textarea
+    id: clarification
+    attributes:
+      label: What would make an answer useful?
+      description: >
+        Identify any specific clarification,
+        example, explanation, or outcome needed.
+    validations:
+      required: false

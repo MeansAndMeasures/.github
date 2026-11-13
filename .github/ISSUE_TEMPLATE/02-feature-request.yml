@@ -1,0 +1,81 @@
+
+name: "Feature or improvement proposal"
+description: "Propose functionality, improvements, or a change in direction."
+title: "[Proposal] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the objective before prescribing an implementation.
+
+        Proposals may identify unmet needs without supplying
+        a technical solution. Existing implementations are
+        not automatically project requirements.
+
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What should become possible or work better?
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_limitation
+    attributes:
+      label: Current limitation or opportunity
+      description: >
+        Describe the existing conditions or needs that
+        motivate this proposal.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: >
+        Describe an approach, if you have one.
+        A complete solution is not required.
+    validations:
+      required: false
+
+  - type: textarea
+    id: beneficiaries
+    attributes:
+      label: Affected people or systems
+      description: >
+        Who or what would benefit, and how?
+        Distinguish observed needs from expected benefits.
+    validations:
+      required: false
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting context or evidence
+      description: >
+        Include relevant research, observations,
+        prior decisions, issues, or documentation.
+    validations:
+      required: false
+
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Alternatives and tradeoffs
+      description: >
+        Identify alternatives, constraints, or
+        potential consequences if known.
+    validations:
+      required: false
+
+  - type: textarea
+    id: evaluation
+    attributes:
+      label: How should success be evaluated?
+      description: >
+        Suggest observable outcomes or acceptance
+        criteria, if available.
+    validations:
+      required: false

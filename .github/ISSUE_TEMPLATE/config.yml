@@ -1,0 +1,22 @@
+
+blank_issues_enabled: true
+
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/MeansAndMeasures/.github/security/policy
+    about: >
+      Read our security policy and use private vulnerability
+      reporting or encrypted email. Do not disclose vulnerabilities
+      in public issues.
+
+  - name: Confidential conduct or privacy concern
+    url: https://github.com/MeansAndMeasures/.github/blob/prime/CODE_OF_CONDUCT.md#6-reporting-conduct-concerns
+    about: >
+      Find our private reporting address and OpenPGP details.
+      Do not include confidential allegations in public issues.
+
+  - name: Questions and general support
+    url: https://github.com/MeansAndMeasures/.github/blob/prime/SUPPORT.md
+    about: >
+      Find the appropriate support or discussion channel
+      for your question.

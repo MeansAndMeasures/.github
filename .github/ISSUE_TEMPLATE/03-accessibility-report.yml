@@ -1,0 +1,87 @@
+
+name: "Accessibility barrier"
+description: "Report a barrier to access, use, comprehension, or participation."
+title: "[Accessibility] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Accessibility is part of functionality.
+
+        Describe the barrier in your own terms. You do not
+        need to disclose a diagnosis, demonstrate disability,
+        identify a standard, or propose a technical solution.
+
+        If your report contains sensitive personal information,
+        use privacy-contact@mail.meansandmeasures.com instead.
+
+  - type: textarea
+    id: barrier
+    attributes:
+      label: Barrier encountered
+      description: >
+        What prevents or complicates access,
+        participation, or successful use?
+    validations:
+      required: true
+
+  - type: textarea
+    id: intended_action
+    attributes:
+      label: Intended action or outcome
+      description: What were you trying to accomplish?
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Affected feature or location
+      description: >
+        Identify the page, feature, workflow,
+        or documentation if known.
+      placeholder: "URL, feature, or component"
+    validations:
+      required: false
+
+  - type: textarea
+    id: circumstances
+    attributes:
+      label: Relevant circumstances
+      description: >
+        Describe any relevant device, interaction method,
+        assistive technology, or conditions.
+        Share only what you consider necessary.
+    validations:
+      required: false
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Effect on participation or use
+      description: >
+        Explain how the barrier affects completion,
+        independence, comprehension, or access.
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or improvements
+      description: >
+        Describe any workaround or improvement you
+        would find useful. This is optional.
+    validations:
+      required: false
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting details
+      description: >
+        Provide screenshots, links, observations,
+        or reproduction steps if useful.
+        Do not publish confidential information.
+    validations:
+      required: false

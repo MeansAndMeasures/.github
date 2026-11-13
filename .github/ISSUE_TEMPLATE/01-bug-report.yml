@@ -1,0 +1,86 @@
+
+name: "Bug report"
+description: "Report incorrect, unexpected, or unreliable behavior."
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Report what you observed. A complete diagnosis, fix,
+        or consistently reproducible test is not required.
+
+        For security vulnerabilities, use private reporting
+        instead of this public form.
+
+  - type: input
+    id: component
+    attributes:
+      label: Affected component
+      description: Identify the feature, service, or component if known.
+      placeholder: "Feature, component, or location"
+    validations:
+      required: false
+
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+      description: What actually happened?
+      placeholder: Describe the behavior, including any error messages.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen, and why?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: >
+        Include steps or conditions if known.
+        Intermittent issues and single observations are welcome.
+      placeholder: |
+        1. Open or configure...
+        2. Perform...
+        3. Observe...
+
+        Repeatability or limitations:
+    validations:
+      required: false
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: >
+        Versions, devices, platforms, configurations,
+        or dependencies relevant to the issue.
+      placeholder: "Only what is known and relevant."
+    validations:
+      required: false
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: >
+        Explain how the behavior affects functionality,
+        reliability, accessibility, or users.
+    validations:
+      required: false
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence
+      description: >
+        Include redacted logs, screenshots, links,
+        or other relevant evidence.
+    validations:
+      required: false

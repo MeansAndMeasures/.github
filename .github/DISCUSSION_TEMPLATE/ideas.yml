@@ -1,0 +1,65 @@
+
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Ideas and exploration
+
+        Use this space to explore possibilities, question
+        assumptions, and develop proposals before committing
+        to a particular implementation.
+
+        An idea does not need to be fully developed to
+        warrant discussion. Distinguish established facts
+        from proposals and open questions.
+
+  - type: textarea
+    id: opportunity
+    attributes:
+      label: Problem or opportunity
+      description: >
+        What issue, unmet need, or possibility
+        motivates this discussion?
+    validations:
+      required: true
+
+  - type: textarea
+    id: intended_outcome
+    attributes:
+      label: Intended outcome
+      description: >
+        What would improve, become possible, or
+        warrant investigation?
+    validations:
+      required: false
+
+  - type: textarea
+    id: approaches
+    attributes:
+      label: Possible approaches
+      description: >
+        Share ideas, alternatives, or preliminary
+        directions without requiring a final solution.
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and supporting evidence
+      description: >
+        Include observations, research, references,
+        relevant experiences, or prior decisions.
+    validations:
+      required: false
+
+  - type: textarea
+    id: questions
+    attributes:
+      label: Questions for discussion
+      description: >
+        What remains uncertain, contested,
+        or worth examining together?
+    validations:
+      required: false
