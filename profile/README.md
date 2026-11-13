@@ -67,10 +67,3 @@ Institutions bear responsibility **down through systems** to make participation 
 Authority rises **up through people** who question, evaluate, and hold those institutions accountable.
 
 # _The commons belongs to all, **not only those who would restrict its access**._
-
----
-
-
-
-
-<sub>Means+Measures℠ is a service mark of Means and Measures LLC, a Missouri limited liability company.</sub>
