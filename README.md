@@ -42,6 +42,16 @@ These principles inform how we design, document, maintain, and evaluate our work
 
 Documents and configuration are introduced as needed; this table describes the intended structure, not a guarantee that every file is already present.
 
+## License
+
+Unless otherwise indicated, Means+Measures-authored materials in this repository are provided under the **Hippocratic License 3.0**, using the `media-my-tal-usta-xuar` configuration.
+
+The full license terms are provided in [`LICENSE`](LICENSE).
+
+This license imposes ethical conditions on permitted use, modification, and distribution. It is not an OSI-approved open-source license.
+
+Third-party materials retain their respective licensing terms. The licensing of this repository does not automatically establish the license of other Means+Measures repositories.
+
 ---
 
 ***Means+Measures***
