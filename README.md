@@ -1,4 +1,4 @@
-# Means+Measures · GitHub Community Infrastructure
+# GitHub Community Infrastructure
 
 **Equity of means. Equality of measures.**
 
@@ -47,4 +47,7 @@ Documents and configuration are introduced as needed; this table describes the i
 ***Means+Measures***
 
 *Equity of means. Equality of measures.* 
+
+---
+
 **Down through systems. Up through poeple.**
